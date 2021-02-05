@@ -1,0 +1,79 @@
+local clickCount = 0
+local fillAt = 10  --numbers of clicks to fill percentatge pie
+
+------------------
+--CUSTOM FUNCTIONS
+------------------
+
+local function Clamp(x,y,z)
+	return math.max(y, math.min(z,x))
+end
+
+local function UpdatePercentatgeNode(self)
+	clickCount = clickCount + 1
+
+	if(clickCount > fillAt) then
+		clickCount = 0
+	end
+
+	gui.set_text(self.countText, clickCount .. "/" .. fillAt)
+	
+	gui.animate(self.clickPercentatgeNode, gui.PROP_FILL_ANGLE, Clamp((clickCount / fillAt) * 360, 0, 360), gui.EASING_OUTBACK, self.fillAnimationTime)
+end
+
+local function SetInitProperties(self, properties)
+	fillAt = properties.fillAt
+	self.fillAnimationTime = properties.fillAnimationTime	
+end
+
+
+------------------
+--DEFOLD FUNCTIONS
+------------------
+
+function init(self)
+	msg.post(".", "acquire_input_focus")
+	
+	self.clickPercentatgeNode = gui.get_node("ClickPercentatgePie")
+	self.countText = gui.get_node("CountText")
+
+	math.randomseed(os.clock())	
+end
+
+function final(self)
+	-- Add finalization code here
+	-- Learn more: https://defold.com/manuals/script/
+	-- Remove this function if not needed
+	
+end
+
+function update(self, dt)
+end
+
+function on_message(self, message_id, message, sender)
+	if message_id == hash("InitProperties") then
+		SetInitProperties(self, message)
+	end
+	
+	
+	
+end
+
+function on_input(self, action_id, action)	
+	if action_id == hash("mouse_left") then
+		if action.pressed then
+			UpdatePercentatgeNode(self)
+
+			local soundPitch = math.max(math.random() + math.random(0, 2), 0.6)
+			
+			sound.play("#ClickSound", {delay = 0, gain = 1, pan = 0.0, speed = soundPitch })
+		end
+	end
+end
+
+function on_reload(self)
+	-- Add reload-handling code here
+	-- Learn more: https://defold.com/manuals/hot-reload/
+	-- Remove this function if not needed
+end
+
