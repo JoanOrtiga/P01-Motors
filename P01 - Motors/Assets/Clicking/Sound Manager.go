@@ -1,6 +1,6 @@
 components {
-  id: "ClickPercentatgeNode"
-  component: "/Assets/GUI/GameGUI.gui"
+  id: "SoundManager"
+  component: "/Assets/Clicking/SoundManager.script"
   position {
     x: 0.0
     y: 0.0
@@ -11,31 +11,6 @@ components {
     y: 0.0
     z: 0.0
     w: 1.0
-  }
-}
-components {
-  id: "GUIProperties"
-  component: "/Assets/GUI/GUIProperties.script"
-  position {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  properties {
-    id: "fillAt"
-    value: "15.0"
-    type: PROPERTY_TYPE_NUMBER
-  }
-  properties {
-    id: "fillAnimationTime"
-    value: "1.0"
-    type: PROPERTY_TYPE_NUMBER
   }
 }
 embedded_components {
