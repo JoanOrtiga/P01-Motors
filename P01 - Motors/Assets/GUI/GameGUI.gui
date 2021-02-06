@@ -63,8 +63,8 @@ nodes {
 }
 nodes {
   position {
-    x: 95.0
-    y: 545.0
+    x: 74.0
+    y: -75.0
     z: 0.0
     w: 1.0
   }
@@ -98,8 +98,8 @@ nodes {
   ""
   font: "GUIFont"
   id: "CountText"
-  xanchor: XANCHOR_LEFT
-  yanchor: YANCHOR_TOP
+  xanchor: XANCHOR_NONE
+  yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER
   outline {
     x: 1.0
@@ -113,8 +113,9 @@ nodes {
     z: 1.0
     w: 1.0
   }
-  adjust_mode: ADJUST_MODE_FIT
+  adjust_mode: ADJUST_MODE_ZOOM
   line_break: false
+  parent: "ClickPercentatgePie"
   layer: ""
   inherit_alpha: true
   alpha: 1.0
