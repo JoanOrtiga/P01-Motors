@@ -40,26 +40,6 @@ instances {
   }
 }
 instances {
-  id: "bubble"
-  prototype: "/Assets/Objects/bubble.go"
-  position {
-    x: 476.0
-    y: 251.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.1
-    y: 0.1
-    z: 1.0
-  }
-}
-instances {
   id: "Background"
   prototype: "/Assets/Objects/Background.go"
   position {
