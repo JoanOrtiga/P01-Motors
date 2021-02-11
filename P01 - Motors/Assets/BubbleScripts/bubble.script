@@ -1,4 +1,4 @@
-
+local totalClicks = 0
 local screenSizeX
 local screenSizeY
 
@@ -70,24 +70,31 @@ function on_input(self, action_id, action)
 		randomPositionX = math.random(0,screenSizeX)
 		randomPositionY = math.random(0,screenSizeY)
 
-		print(randomPositionX)
-		print(randomPositionY)
+		
 		local positionSpawn = vmath.vector3(randomPositionX,randomPositionY,0)
 		
 		if M.pick_sprite("#bubbleSprite", action.x, action.y, no_padding) then
 			if action.pressed then
 
-				local spawnObject = factory.create("#spawnObject",positionSpawn)
+				
 
 				
 				if spriteActive == true then
+					totalClicks = totalClicks + 1
 					msg.post("#bubbleSprite", "disable")
+
 					spriteActive = false
 				else 
 					msg.post("#bubbleSprite", "enable")
+					totalClicks = totalClicks + 1
 					spriteActive = true
 				end
 
+				if totalClicks >= 10 then
+					totalClicks = 0
+					local spawnObject = factory.create("#spawnObject",positionSpawn)
+				end
+				
 			end
 		end
 
