@@ -1,4 +1,6 @@
-spriteActive = true
+
+local screenSizeX
+local screenSizeY
 
 local M = {}
 
@@ -28,7 +30,6 @@ function M.pick_sprite(sprite_url, x, y, padding)
 	local top = half_height + padding.top
 	local bottom = -half_height - padding.bottom
 	if y < bottom or y > top then return false end
-
 	return true
 end
 
@@ -37,6 +38,10 @@ end
 
 function init(self)
 	msg.post(".", "acquire_input_focus")
+
+	screenSizeX,screenSizeY  = window.get_size()
+	
+	math.randomseed( os.time() ) 
 end
 
 function final(self)
@@ -60,8 +65,21 @@ end
 function on_input(self, action_id, action)	
 	
 	if action_id == hash("mouse_left") then
+
+
+		randomPositionX = math.random(0,screenSizeX)
+		randomPositionY = math.random(0,screenSizeY)
+
+		print(randomPositionX)
+		print(randomPositionY)
+		local positionSpawn = vmath.vector3(randomPositionX,randomPositionY,0)
+		
 		if M.pick_sprite("#bubbleSprite", action.x, action.y, no_padding) then
 			if action.pressed then
+
+				local spawnObject = factory.create("#spawnObject",positionSpawn)
+
+				
 				if spriteActive == true then
 					msg.post("#bubbleSprite", "disable")
 					spriteActive = false
@@ -72,8 +90,10 @@ function on_input(self, action_id, action)
 
 			end
 		end
+
 		
 	end
+
 end
 
 function on_reload(self)

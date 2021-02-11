@@ -1,6 +1,6 @@
 components {
-  id: "bubble"
-  component: "/Assets/BubbleScripts/bubble.script"
+  id: "BubbleSpawnd"
+  component: "/Assets/BubbleScripts/BubbleSpawnd.script"
   position {
     x: 0.0
     y: 0.0
@@ -14,30 +14,12 @@ components {
   }
 }
 embedded_components {
-  id: "bubbleSprite"
+  id: "sprite"
   type: "sprite"
   data: "tile_set: \"/Assets/GUI/Atlas.atlas\"\n"
-  "default_animation: \"bubble\"\n"
+  "default_animation: \"bubble2\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
-  ""
-  position {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-}
-embedded_components {
-  id: "spawnObject"
-  type: "factory"
-  data: "prototype: \"/Assets/Objects/BubbleSpawn.go\"\n"
-  "load_dynamically: false\n"
   ""
   position {
     x: 0.0
