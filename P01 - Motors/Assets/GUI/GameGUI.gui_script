@@ -10,8 +10,8 @@ local function Clamp(x,y,z)
 	return math.max(y, math.min(z,x))
 end
 
-local function UpdateTotalCountNode(self)
-	totalClicks = totalClicks + 1
+local function UpdateTotalCountNode(self, clicks)
+	totalClicks = totalClicks + clicks
 	gui.set_text(self.totalCountText, totalClicks)
 end
 
@@ -62,8 +62,10 @@ function on_message(self, message_id, message, sender)
 	if message_id == hash("InitProperties") then
 		SetInitProperties(self, message)
 	end
-	
-	
+
+	if message_id == hash("UpdateClicks") then
+		UpdateTotalCountNode(self,message.Clicks)
+	end
 	
 end
 
@@ -73,7 +75,7 @@ function on_input(self, action_id, action)
 	
 	if action_id == hash("mouse_left") then
 		if action.pressed then
-			UpdateTotalCountNode(self)
+			
 			UpdatePercentatgeNode(self)
 		end
 

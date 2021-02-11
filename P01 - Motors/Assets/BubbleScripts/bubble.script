@@ -1,6 +1,8 @@
+local respawnClicks = 0
 local totalClicks = 0
 local screenSizeX
 local screenSizeY
+
 
 local M = {}
 
@@ -75,23 +77,24 @@ function on_input(self, action_id, action)
 		
 		if M.pick_sprite("#bubbleSprite", action.x, action.y, no_padding) then
 			if action.pressed then
-
-				
-
 				
 				if spriteActive == true then
 					totalClicks = totalClicks + 1
+					respawnClicks = respawnClicks + 1
 					msg.post("#bubbleSprite", "disable")
+					msg.post("GUI#ClickPercentatgeNode", "UpdateClicks", {Clicks = 1})
 
 					spriteActive = false
 				else 
 					msg.post("#bubbleSprite", "enable")
 					totalClicks = totalClicks + 1
+					respawnClicks = respawnClicks + 1
 					spriteActive = true
+					msg.post("GUI#ClickPercentatgeNode", "UpdateClicks", {Clicks = 1})
 				end
 
-				if totalClicks >= 10 then
-					totalClicks = 0
+				if respawnClicks >= 10 then
+					respawnClicks = 0
 					local spawnObject = factory.create("#spawnObject",positionSpawn)
 				end
 				
