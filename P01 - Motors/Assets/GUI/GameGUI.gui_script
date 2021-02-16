@@ -1,6 +1,10 @@
-local totalClicks = 0
-local clickCount = 0
-local fillAt = 10  --numbers of clicks to fill percentatge pie
+local fillAt
+local clickCount
+
+local startPosUpgrades = {}
+local referenceMasterClick
+
+local statsPinned = false
 
 ------------------
 --CUSTOM FUNCTIONS
@@ -10,9 +14,8 @@ local function Clamp(x,y,z)
 	return math.max(y, math.min(z,x))
 end
 
-local function UpdateTotalCountNode(self, clicks)
-	totalClicks = totalClicks + clicks
-	gui.set_text(self.totalCountText, totalClicks)
+local function UpdateTotalCountNode(self, message)
+	gui.set_text(self.totalCountText, message.tClicks)
 end
 
 local function UpdatePercentatgeNode(self)
@@ -27,11 +30,27 @@ local function UpdatePercentatgeNode(self)
 	gui.animate(self.clickPercentatgeNode, gui.PROP_FILL_ANGLE, Clamp((clickCount / fillAt) * 360, 0, 360), gui.EASING_OUTBACK, self.fillAnimationTime)
 end
 
+
+
 local function SetInitProperties(self, properties)
-	fillAt = properties.fillAt
 	self.fillAnimationTime = properties.fillAnimationTime	
+	clickCount = -1
 end
 
+local function updateLevels(self, message)
+	gui.set_text(self.upgrade1Text, "Each click, gives you +1 extra \n lvl " .. message.LevelClick)
+	gui.set_text(self.upgrade2Text, "Each bubble, gives you +1 extra \n lvl " .. message.LevelBubble)
+	gui.set_text(self.upgrade1CostText, message.LevelClickCost)
+	gui.set_text(self.upgrade2CostText, message.LevelBubbleCost)
+end
+
+local function updateStats(self, stats)
+	gui.set_text(self.stats_totalClicks, "Total Clicks:\n" .. stats.stats_totalClicks)
+	gui.set_text(self.stats_totalBubbles, "Total Bubbles:\n" .. stats.stats_totalBubbles)
+	gui.set_text(self.stats_allClicks, "All Clicks:\n" .. stats.stats_allClicks)
+	gui.set_text(self.stats_clicksXSecond, "Clicks per Second:\n" .. stats.stats_clicksXSecond)
+	gui.set_text(self.stats_bubblesXSecond, "Auto per Second:\n" .. stats.stats_bubblesXSecond)
+end
 
 ------------------
 --DEFOLD FUNCTIONS
@@ -40,53 +59,111 @@ end
 function init(self)
 	msg.post(".", "acquire_input_focus") 
 
-	
-	
 	self.clickPercentatgeNode = gui.get_node("ClickPercentatgePie")
 	self.countText = gui.get_node("CountText")	
-	self.totalCountText = gui.get_node("TotalCountText")	
-	
-end
+	self.totalCountText = gui.get_node("TotalCountText")
 
-function final(self)
-	-- Add finalization code here
-	-- Learn more: https://defold.com/manuals/script/
-	-- Remove this function if not needed
+	--UPGRADES--
+	self.upgrade1 = gui.get_node("Upgrade1")
+	self.upgrade2 = gui.get_node("Upgrade2")	
+	self.upgrade1Cost = gui.get_node("Upgrade1Cost")
+	self.upgrade2Cost = gui.get_node("Upgrade2Cost")	
 	
-end
+	self.upgrade1Text = gui.get_node("Upgrade1Text")
+	self.upgrade2Text = gui.get_node("Upgrade2Text")
+	self.upgrade1CostText = gui.get_node("Upgrade1CostText")
+	self.upgrade2CostText = gui.get_node("Upgrade2CostText")
 
-function update(self, dt)
+	startPosUpgrades.upgrade1Cost = gui.get_position(self.upgrade1Cost)
+	startPosUpgrades.upgrade2Cost = gui.get_position(self.upgrade2Cost)
+
+	--STATS--
+	self.stats_panel = gui.get_node("StatsPanel")
+	self.stats_totalClicks = gui.get_node("stats_totalClicks")
+	self.stats_totalBubbles = gui.get_node("stats_totalBubbles")
+	self.stats_allClicks = gui.get_node("stats_allClicks")
+	self.stats_clicksXSecond = gui.get_node("stats_clicksXSecond")
+	self.stats_bubblesXSecond = gui.get_node("stats_bubblesXSecond")
+	self.statsPosReference = gui.get_position(gui.get_node("statsPosReference"))
+
+	startPosUpgrades.stats_panel = gui.get_position(self.stats_panel)
+
+	self.stats_pin = gui.get_node("Pin")
 end
 
 function on_message(self, message_id, message, sender)
 	if message_id == hash("InitProperties") then
 		SetInitProperties(self, message)
-	end
+	elseif message_id == hash("initSettings") then
+		referenceMasterClick = sender
+		fillAt = message.spawnBubbleEvery
+
+		UpdatePercentatgeNode(self)
+		UpdateTotalCountNode(self, {tClicks = 0})
+	end	
 
 	if message_id == hash("UpdateClicks") then
-		UpdateTotalCountNode(self,message.Clicks)
+		UpdateTotalCountNode(self, message)
+
+	elseif message_id == hash("UpdateAllClicks") then
+		UpdateTotalCountNode(self, message)
+		UpdatePercentatgeNode(self)
 	end
-	
+
+	if message_id == hash("updateLevels") then
+		updateLevels(self, message)
+	end	
+
+	if message_id == hash("updateStats") then
+		updateStats(self, message)
+	end	
 end
 
-function on_input(self, action_id, action)	
-
-	
-	
-	if action_id == hash("mouse_left") then
-		if action.pressed then
-			
-			UpdatePercentatgeNode(self)
+function on_input(self, action_id, action)
+	if action_id == nil then
+		if gui.pick_node(self.upgrade1, action.x, action.y) then
+			gui.animate(self.upgrade1Cost, gui.PROP_POSITION, gui.get_position(self.upgrade1), gui.EASING_OUTEXPO, 0.5)		
+		else
+			gui.animate(self.upgrade1Cost, gui.PROP_POSITION, startPosUpgrades.upgrade1Cost, gui.EASING_OUTEXPO, 0.5)
 		end
 
+		if gui.pick_node(self.upgrade2, action.x, action.y) then
+			gui.animate(self.upgrade2Cost, gui.PROP_POSITION,gui.get_position(self.upgrade2), gui.EASING_OUTEXPO, 0.5)		
+		else
+			gui.animate(self.upgrade2Cost, gui.PROP_POSITION,startPosUpgrades.upgrade2Cost, gui.EASING_OUTEXPO, 0.5)
+		end
+
+		if gui.pick_node(self.stats_panel, action.x, action.y) then
+			gui.animate(self.stats_panel, gui.PROP_POSITION, self.statsPosReference, gui.EASING_OUTEXPO, 0.5)		
+		else
+			if not statsPinned then
+				gui.animate(self.stats_panel, gui.PROP_POSITION, startPosUpgrades.stats_panel, gui.EASING_OUTEXPO, 0.5)
+			end
+		end
 	end
 
 	
-end
 
-function on_reload(self)
-	-- Add reload-handling code here
-	-- Learn more: https://defold.com/manuals/hot-reload/
-	-- Remove this function if not needed
+	if action_id == hash("mouse_left") and action.pressed then	
+		if gui.pick_node(self.upgrade1Cost, action.x, action.y) then
+			msg.post(referenceMasterClick, "updateLevelClick")
+		end
+		
+		if gui.pick_node(self.upgrade2Cost, action.x, action.y) then
+			msg.post(referenceMasterClick, "updateLevelBubble")
+		end
+
+		if gui.pick_node(self.stats_pin, action.x, action.y) then
+			if statsPinned then
+				gui.set_color(self.stats_pin, vmath.vector4(1,1,1,1))
+				statsPinned = false
+			else
+				gui.set_color(self.stats_pin, vmath.vector4(0,0,0,1))
+				statsPinned = true
+			end
+		end	
+	else
+
+	end
 end
 

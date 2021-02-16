@@ -1,8 +1,8 @@
 embedded_components {
   id: "background"
   type: "sprite"
-  data: "tile_set: \"/Assets/GUI/Atlas.atlas\"\n"
-  "default_animation: \"Square\"\n"
+  data: "tile_set: \"/Assets/Art/Atlas.atlas\"\n"
+  "default_animation: \"fondo\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""

@@ -1,0 +1,162 @@
+local userClicks = 0
+local bubbleClicks = 0
+local totalClicks = 0
+
+go.property("spawnBubbleEvery", 10)
+
+go.property("LevelClick", 0)
+go.property("LevelBubble", 0)
+go.property("LevelClickCost", 50)
+go.property("LevelBubbleCost", 100)
+
+go.property("duckSoundEveryXClicks", 50)
+
+local createdBubbles = {}
+local lastIndex = 1
+
+local guiReference = "GUI#ClickPercentatgeNode"
+local bubbleReference = "bubble#bubble"
+
+local clicksSecond = 0
+local bubbleSecond = 0
+
+--STATS--
+local stats = {
+	stats_totalClicks = 0,
+	stats_totalBubbles = 0,
+	stats_allClicks = 0,
+	stats_clicksXSecond = 0,
+	stats_bubblesXSecond = 0
+}
+
+local function updateStatsGUI(self)
+	msg.post(guiReference, "updateStats", stats)
+end
+
+local function updateGUILevels(self)
+	local message = {
+		LevelClick = self.LevelClick, 
+		LevelBubble = self.LevelBubble,  
+		LevelClickCost = (self.LevelClick + 1) * self.LevelClickCost,
+		LevelBubbleCost = (self.LevelBubble + 1) * self.LevelBubbleCost
+	}
+
+	msg.post(guiReference, "updateLevels", message)
+end
+
+local function playDuckSound(self)
+	if totalClicks % self.duckSoundEveryXClicks == 0 then
+		msg.post("SceneController:/Sound Manager#SoundManager", "DuckSound")
+	end
+	
+end
+
+local function addClicks(self, numberOfClicks)
+	userClicks = userClicks + numberOfClicks
+	totalClicks = totalClicks + numberOfClicks
+
+	stats.stats_totalClicks = stats.stats_totalClicks + numberOfClicks
+	stats.stats_allClicks = stats.stats_totalClicks + stats.stats_totalBubbles
+	
+	clicksSecond = clicksSecond + numberOfClicks
+
+	updateStatsGUI(self)
+	
+	msg.post(guiReference, "UpdateAllClicks", { uClicks = userClicks, tClicks = totalClicks})
+	msg.post("SceneController:/Sound Manager#SoundManager", "bubblePressed")
+	
+	playDuckSound(self)
+end
+
+local function extraClicks(self, numberOfClicks)
+	bubbleClicks = bubbleClicks + numberOfClicks
+	totalClicks = totalClicks + numberOfClicks
+
+	stats.stats_totalBubbles =  stats.stats_totalBubbles + numberOfClicks
+	stats.stats_allClicks = stats.stats_totalClicks + stats.stats_totalBubbles
+
+	bubbleSecond = bubbleSecond + numberOfClicks
+	
+	updateStatsGUI(self)
+	
+	msg.post(guiReference, "UpdateClicks", { uClicks = userClicks, tClicks = totalClicks})
+	playDuckSound(self)
+end
+
+local function updateLevelClick(self)
+	if (totalClicks - (self.LevelClick + 1) * self.LevelClickCost) >= 0 then
+		totalClicks = totalClicks - (self.LevelClick + 1) * self.LevelClickCost
+		self.LevelClick = self.LevelClick + 1
+
+		updateGUILevels(self)
+		msg.post(guiReference, "UpdateClicks", { uClicks = userClicks, tClicks = totalClicks})		
+		msg.post(bubbleReference, "updateLevel")
+	end
+end
+
+local function updateLevelBubble(self)
+	if (totalClicks - (self.LevelBubble + 1) * self.LevelBubbleCost) >= 0 then
+
+		totalClicks = totalClicks - (self.LevelBubble + 1) * self.LevelBubbleCost
+
+		self.LevelBubble = self.LevelBubble + 1
+		
+		for _, reference in ipairs(createdBubbles) do
+			msg.post(reference, "changeMultiplier", { multiplier = self.LevelBubble + 1 })
+		end
+
+		updateGUILevels(self)		
+		msg.post(guiReference, "UpdateClicks", { uClicks = userClicks, tClicks = totalClicks})		
+	end
+end
+
+local function clicksPerSecond(self, handle, time_elapsed)
+	if (clicksSecond ~= 0) then
+		stats.stats_clicksXSecond = clicksSecond
+	end
+
+	updateStatsGUI(self)
+	
+	clicksSecond = 0
+end
+
+local function bubblePerSecond(self, handle, time_elapsed)
+	if (bubbleSecond ~=  0) then
+		stats.stats_bubblesXSecond = string.format("%.2f", bubbleSecond / 3) 
+	end
+
+	updateStatsGUI(self)
+	
+	bubbleSecond = 0
+end
+
+function on_message(self, message_id, message, sender)
+	if message_id == hash("UpdateClicks") then
+		addClicks(self, message.Clicks)
+	elseif message_id == hash("ExtraClicks") then
+		extraClicks(self, message.Clicks)
+	elseif message_id == hash("updateLevelClick") then
+		updateLevelClick(self)
+	elseif message_id == hash("updateLevelBubble") then
+		updateLevelBubble(self)
+	end	
+
+	if message_id == hash("newBubble") then
+		createdBubbles[lastIndex] = message.spawnedReference
+		lastIndex = lastIndex + 1		
+	end	
+end
+
+function init(self)
+	msg.post(guiReference, "initSettings", { spawnBubbleEvery = self.spawnBubbleEvery })
+	msg.post(bubbleReference, "initSettings", {spawnBubbleEvery = self.spawnBubbleEvery})
+	
+	updateGUILevels(self)
+
+	timer.delay(1, true, clicksPerSecond)
+	timer.delay(3, true, bubblePerSecond)
+
+	updateStatsGUI(self)
+end
+
+

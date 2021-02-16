@@ -28,11 +28,6 @@ components {
     w: 1.0
   }
   properties {
-    id: "fillAt"
-    value: "15.0"
-    type: PROPERTY_TYPE_NUMBER
-  }
-  properties {
     id: "fillAnimationTime"
     value: "1.0"
     type: PROPERTY_TYPE_NUMBER
@@ -41,7 +36,7 @@ components {
 embedded_components {
   id: "ClickSound"
   type: "sound"
-  data: "sound: \"/Assets/Clicking/Pop Bubble.ogg\"\n"
+  data: "sound: \"/Assets/Sounds/Pop Bubble.ogg\"\n"
   "looping: 0\n"
   "group: \"master\"\n"
   "gain: 1.0\n"

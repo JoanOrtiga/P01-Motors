@@ -20,26 +20,6 @@ instances {
   }
 }
 instances {
-  id: "Sound Manager"
-  prototype: "/Assets/Clicking/Sound Manager.go"
-  position {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
   id: "Background"
   prototype: "/Assets/Objects/Background.go"
   position {
@@ -54,8 +34,8 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 4.052
-    y: 2.746
+    x: 1.0
+    y: 1.0
     z: 1.0
   }
 }
@@ -76,7 +56,35 @@ instances {
   scale3 {
     x: 0.172
     y: 0.172
-    z: 1.717
+    z: 1.0
+  }
+}
+instances {
+  id: "MasterClick"
+  prototype: "/Assets/Clicking/MasterClick.go"
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "MasterClick"
+    properties {
+      id: "duckSoundEveryXClicks"
+      value: "100.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
   }
 }
 scale_along_z: 0

@@ -1,0 +1,22 @@
+go.property("timeEachClick", 3)
+
+local clickMultiplier = 1
+
+function clockIncreaseClicks(self, handle, time_elapsed)
+	msg.post("MasterClick#MasterClick", "ExtraClicks", { Clicks = clickMultiplier })
+end
+
+function init(self)
+	go.set(".", "scale", vmath.vector3(0.05,0.05,1))
+	
+	timer.delay(self.timeEachClick, true, clockIncreaseClicks)
+	go.animate(".", "position.y", go.PLAYBACK_LOOP_PINGPONG, go.get(".", "position.y") + 20, go.EASING_OUTSINE, 3)
+end
+
+function on_message(self, message_id, message)
+	if message_id == hash("changeMultiplier") then
+		clickMultiplier = message.multiplier
+	end
+end
+
+

@@ -1,10 +1,5 @@
 local startButtonScale
 
-
-
-
-
-
 local function AnimateHover(action, node)
 	if gui.pick_node(node, action.x, action.y) then 
 		gui.animate(node, gui.PROP_SCALE, vmath.vector3(1.2,1.2,1.2), gui.EASING_LINEAR, 0.1)
@@ -12,9 +7,6 @@ local function AnimateHover(action, node)
 		gui.animate(node, gui.PROP_SCALE, startButtonScale, gui.EASING_LINEAR, 0.1)
 	end
 end
-
-
-
 
 
 function init(self)
@@ -25,25 +17,6 @@ function init(self)
 	
 
 	msg.post(".", "acquire_input_focus")
-	--gui.pick_node(node, x, y)
-end
-
-function final(self)
-	-- Add finalization code here
-	-- Learn more: https://defold.com/manuals/script/
-	-- Remove this function if not needed
-end
-
-function update(self, dt)
-	-- Add update code here
-	-- Learn more: https://defold.com/manuals/script/
-	-- Remove this function if not needed
-end
-
-function on_message(self, message_id, message, sender)
-	-- Add message-handling code here
-	-- Learn more: https://defold.com/manuals/message-passing/
-	-- Remove this function if not needed
 end
 
 function on_input(self, action_id, action)
@@ -54,16 +27,12 @@ function on_input(self, action_id, action)
 
 	if action_id == hash("touch") and action.pressed then 
 		if gui.pick_node(self.startButton, action.x, action.y) then
+			msg.post("SceneController:/Sound Manager#SoundManager", "DuckSound")
 			msg.post("SceneController:/SceneController#SceneController", "load_level1")
 		elseif gui.pick_node(self.exitButton, action.x, action.y) then
+			msg.post("SceneController:/Sound Manager#SoundManager", "DuckSound")
 			sys.exit(0)
 		end
 	end
 	
-end
-
-function on_reload(self)
-	-- Add reload-handling code here
-	-- Learn more: https://defold.com/manuals/hot-reload/
-	-- Remove this function if not needed
 end

@@ -1,6 +1,6 @@
 components {
   id: "BubbleSpawnd"
-  component: "/Assets/BubbleScripts/BubbleSpawnd.script"
+  component: "/Assets/BubbleScripts/BubbleSpawn.script"
   position {
     x: 0.0
     y: 0.0
@@ -16,7 +16,7 @@ components {
 embedded_components {
   id: "sprite"
   type: "sprite"
-  data: "tile_set: \"/Assets/GUI/Atlas.atlas\"\n"
+  data: "tile_set: \"/Assets/Art/Atlas.atlas\"\n"
   "default_animation: \"bubble2\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
