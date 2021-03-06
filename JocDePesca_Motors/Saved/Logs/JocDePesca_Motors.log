@@ -2000,3 +2000,215 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2021.03.05-23.59.44:160][732]LogContentValidation: Display: Validating Skeleton /Game/Anims/Imported/YBot_Skeleton.YBot_Skeleton
 [2021.03.06-00.00.11:260][131]LogUObjectGlobals: Warning: Error al encontrar el objeto 'Class Ninguno.ControlRigBlueprint'
 [2021.03.06-00.03.20:825][894]LogContentBrowser: Attempting asset rename: A_FishingCast -> A_FishingCast
+[2021.03.06-00.06.53:488][177]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.06.54:784][222]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.07.01:240][331]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.07.01:272][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anims/Imported/YBot_Skeleton" FILE="../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/YBot_Skeleton.uasset" SILENT=true
+[2021.03.06-00.07.01:280][331]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/YBot_Skeleton70746B754A1E386B204A439AF5133BFD.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/YBot_Skeleton.uasset'
+[2021.03.06-00.07.01:306][331]AssetCheck: New page: Asset Save: YBot_Skeleton
+[2021.03.06-00.07.01:307][331]LogContentValidation: Display: Validating Skeleton /Game/Anims/Imported/YBot_Skeleton.YBot_Skeleton
+[2021.03.06-00.07.03:858][475]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.07.04:733][521]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.07.21:605][ 88]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.07.21:824][ 88]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/YBot_SketalMesh49E66A7E4DBF96EE729583AC9ABA5D76.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/YBot_SketalMesh.uasset'
+[2021.03.06-00.07.21:874][ 88]AssetCheck: New page: Asset Save: YBot_SketalMesh
+[2021.03.06-00.07.21:874][ 88]LogContentValidation: Display: Validating SkeletalMesh /Game/Anims/Imported/YBot_SketalMesh.YBot_SketalMesh
+[2021.03.06-00.07.22:941][131]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.07.22:972][131]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/YBot_PhysicsAssetBD1C9DE148E72BB448CD389AF7179997.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/YBot_PhysicsAsset.uasset'
+[2021.03.06-00.07.22:992][131]AssetCheck: New page: Asset Save: YBot_PhysicsAsset
+[2021.03.06-00.07.22:993][131]LogContentValidation: Display: Validating PhysicsAsset /Game/Anims/Imported/YBot_PhysicsAsset.YBot_PhysicsAsset
+[2021.03.06-00.07.25:115][217]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.07.25:137][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anims/Imported/A_FishingCast" FILE="../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/A_FishingCast.uasset" SILENT=true
+[2021.03.06-00.07.25:150][217]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/A_FishingCastDE2121A140106ADE8660E39E689225D1.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/A_FishingCast.uasset'
+[2021.03.06-00.07.25:240][217]AssetCheck: New page: Asset Save: A_FishingCast
+[2021.03.06-00.07.25:240][217]LogContentValidation: Display: Validating AnimSequence /Game/Anims/Imported/A_FishingCast.A_FishingCast
+[2021.03.06-00.07.28:279][380]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.07.29:270][433]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.07.40:283][ 39]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.07.40:287][ 39]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.07.45:636][303]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.07.45:656][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anims/Imported/YBot_Skeleton" FILE="../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/YBot_Skeleton.uasset" SILENT=true
+[2021.03.06-00.07.45:672][303]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/YBot_SkeletonB92ED36E49BA3D107D7DBE90301BA7DD.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/YBot_Skeleton.uasset'
+[2021.03.06-00.07.45:697][303]AssetCheck: New page: Asset Save: YBot_Skeleton
+[2021.03.06-00.07.45:697][303]LogContentValidation: Display: Validating Skeleton /Game/Anims/Imported/YBot_Skeleton.YBot_Skeleton
+[2021.03.06-00.07.59:718][ 94]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.08.18:278][248]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.08.19:731][323]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.08.19:891][323]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.08.25:267][602]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.09.01:632][245]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.09.10:666][272]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.09.10:712][272]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2021.03.06-00.09.10:715][272]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.011
+[2021.03.06-00.09.10:715][272]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Anims/Imported/YBot_Skeleton] ([1] browsable assets)...
+[2021.03.06-00.09.10:715][272]OBJ SavePackage: Finished generating thumbnails for package [/Game/Anims/Imported/YBot_Skeleton]
+[2021.03.06-00.09.10:726][272]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/YBot_Skeleton_Auto499C38AAD48308822DE16BCBE3DBFADB4.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/Autosaves/Game/Anims/Imported/YBot_Skeleton_Auto4.uasset'
+[2021.03.06-00.09.10:727][272]LogFileHelpers: Auto-saving content packages took 0.012
+[2021.03.06-00.09.26:465][319]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.09.27:380][368]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.09.36:381][806]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.09.36:390][806]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.10.09:962][412]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.10.11:194][480]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.10.20:147][960]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.10.20:171][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anims/Imported/YBot_Skeleton" FILE="../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/YBot_Skeleton.uasset" SILENT=true
+[2021.03.06-00.10.20:185][960]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/YBot_SkeletonFA32A939467294F444F87B9E697231CF.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/YBot_Skeleton.uasset'
+[2021.03.06-00.10.20:203][960]AssetCheck: New page: Asset Save: YBot_Skeleton
+[2021.03.06-00.10.20:204][960]LogContentValidation: Display: Validating Skeleton /Game/Anims/Imported/YBot_Skeleton.YBot_Skeleton
+[2021.03.06-00.11.06:175][594]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.11.06:902][632]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.11.09:409][746]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.11.17:508][187]LogSlate: Window 'Plugins' being destroyed
+[2021.03.06-00.11.17:521][187]LogSlate: Window 'Plugins' being destroyed
+[2021.03.06-00.11.17:521][187]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2021.03.06-00.12.37:643][193]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.12.59:545][225]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.13.00:940][286]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.18.20:865][627]LogRenderer: Reallocating scene render targets to support 1208x760 Format 10 NumSamples 1 (Frame:32980).
+[2021.03.06-00.21.08:733][778]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.21.08:776][778]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.03.06-00.21.10:803][778]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 126 classes and 0 folders.
+[2021.03.06-00.22.55:713][776]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.22.55:755][776]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2021.03.06-00.22.55:763][776]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.23.05:019][858]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2021.03.06-00.23.05:019][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.06-00.23.42:371][991]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.23.43:428][  2]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.26.34:020][948]Cmd: TRANSACTION UNDO
+[2021.03.06-00.26.34:020][948]LogEditorTransaction: Undo Rotate Bone
+[2021.03.06-00.26.34:756][948]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.26.34:758][948]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.26.34:795][948]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.26.34:865][948]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.26.34:869][948]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.26.34:880][948]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.27.15:786][970]Cmd: TRANSACTION UNDO
+[2021.03.06-00.27.15:786][970]LogEditorTransaction: Undo Rotate Bone
+[2021.03.06-00.27.16:318][970]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.27.16:319][970]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.27.16:325][970]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.27.16:369][970]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.27.16:371][970]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.27.16:380][970]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.30.19:851][815]Cmd: TRANSACTION UNDO
+[2021.03.06-00.30.19:851][815]LogEditorTransaction: Undo Rotate Bone
+[2021.03.06-00.30.20:421][815]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.30.20:422][815]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.30.20:431][815]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.30.20:471][815]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.30.20:473][815]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.30.20:483][815]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.32.01:687][694]Cmd: TRANSACTION UNDO
+[2021.03.06-00.32.01:687][694]LogEditorTransaction: Undo Rotate Bone
+[2021.03.06-00.32.02:169][694]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.02:170][694]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.02:178][694]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.02:216][694]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.02:218][694]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.02:225][694]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.32.18:559][546]Cmd: TRANSACTION UNDO
+[2021.03.06-00.32.18:560][546]LogEditorTransaction: Undo Rotate Bone
+[2021.03.06-00.32.19:004][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.19:005][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.19:013][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.19:049][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.19:051][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.19:058][546]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.32.19:062][546]Cmd: TRANSACTION UNDO
+[2021.03.06-00.32.19:062][546]LogEditorTransaction: Undo Rotate Bone
+[2021.03.06-00.32.19:595][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.19:596][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.19:608][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.19:646][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.19:648][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.19:652][546]Cmd: TRANSACTION UNDO
+[2021.03.06-00.32.19:652][546]LogEditorTransaction: Undo Rotate Bone
+[2021.03.06-00.32.20:199][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.20:199][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.20:216][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.20:254][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.20:256][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.20:261][546]Cmd: TRANSACTION UNDO
+[2021.03.06-00.32.20:261][546]LogEditorTransaction: Undo Rotate Bone
+[2021.03.06-00.32.20:834][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.20:836][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.20:853][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.20:897][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.20:899][546]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.39:127][390]Cmd: TRANSACTION UNDO
+[2021.03.06-00.32.39:127][390]LogEditorTransaction: Undo Translate Bone
+[2021.03.06-00.32.39:569][390]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.39:570][390]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.39:578][390]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.39:613][390]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.39:615][390]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-00.32.39:624][390]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.34.27:675][106]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.34.28:960][132]LogSlate: Window 'UE4_Mannequin_Skeleton' being destroyed
+[2021.03.06-00.36.07:546][514]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.36.07:571][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anims/Imported/YBot_Skeleton" FILE="../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/YBot_Skeleton.uasset" SILENT=true
+[2021.03.06-00.36.07:581][514]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/YBot_SkeletonF5FC678A4295F4DDA2CAE28E61E553D4.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/YBot_Skeleton.uasset'
+[2021.03.06-00.36.07:606][514]AssetCheck: New page: Asset Save: YBot_Skeleton
+[2021.03.06-00.36.07:606][514]LogContentValidation: Display: Validating Skeleton /Game/Anims/Imported/YBot_Skeleton.YBot_Skeleton
+[2021.03.06-00.36.16:569][778]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.36.32:439][930]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.36.34:690][ 37]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.36.50:340][848]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.36.59:602][ 28]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.36.59:673][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2021.03.06-00.36.59:700][ 28]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.060
+[2021.03.06-00.36.59:701][ 28]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Anims/Imported/YBot_SketalMesh] ([1] browsable assets)...
+[2021.03.06-00.36.59:701][ 28]OBJ SavePackage: Finished generating thumbnails for package [/Game/Anims/Imported/YBot_SketalMesh]
+[2021.03.06-00.36.59:929][ 28]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/YBot_SketalMesh_Auto5E89BFB35436B83828366A498E1A029F3.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/Autosaves/Game/Anims/Imported/YBot_SketalMesh_Auto5.uasset'
+[2021.03.06-00.36.59:930][ 28]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Anims/Imported/YBot_Skeleton] ([1] browsable assets)...
+[2021.03.06-00.36.59:931][ 28]OBJ SavePackage: Finished generating thumbnails for package [/Game/Anims/Imported/YBot_Skeleton]
+[2021.03.06-00.36.59:972][ 28]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/YBot_Skeleton_Auto5B59EFD49411AD51A0DB5FB88974E74AA.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/Autosaves/Game/Anims/Imported/YBot_Skeleton_Auto5.uasset'
+[2021.03.06-00.36.59:973][ 28]LogFileHelpers: Auto-saving content packages took 0.273
+[2021.03.06-00.37.04:454][ 43]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.37.10:202][347]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.37.16:601][471]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.37.24:917][941]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.37.27:260][ 72]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.37.30:032][224]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.37.42:502][412]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.37.53:266][713]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.37.58:323][989]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.38.08:993][166]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.38.23:710][339]LogRenderer: Reallocating scene render targets to support 1208x772 Format 10 NumSamples 1 (Frame:68483).
+[2021.03.06-00.38.23:898][339]LogRenderer: Reallocating scene render targets to support 1208x776 Format 10 NumSamples 1 (Frame:68484).
+[2021.03.06-00.38.25:430][339]LogRenderer: Reallocating scene render targets to support 1208x784 Format 10 NumSamples 1 (Frame:68489).
+[2021.03.06-00.38.31:776][697]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.39.18:850][282]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.39.23:125][531]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.39.37:974][400]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.39.43:196][696]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.39.52:080][213]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.40.11:595][369]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.40.22:237][991]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.40.34:172][653]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.40.45:224][297]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.40.57:668][702]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.41.10:750][460]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.41.17:847][862]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.41.28:294][460]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.41.36:419][928]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.43.01:557][821]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.43.29:079][821]LogSlate: Window 'Save Mapping' being destroyed
+[2021.03.06-00.43.29:112][821]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.43.29:167][821]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/YBot_SkeletalMapping0B167F6A4D69880CC6E2E0A93CE9BBF1.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/YBot_SkeletalMapping.uasset'
+[2021.03.06-00.43.29:195][821]AssetCheck: New page: Asset Save: YBot_SkeletalMapping
+[2021.03.06-00.43.29:195][821]LogContentValidation: Display: Validating NodeMappingContainer /Game/Anims/YBot_SkeletalMapping.YBot_SkeletalMapping
+[2021.03.06-00.44.13:290][349]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.44.13:321][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anims/Imported/YBot_Skeleton" FILE="../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/YBot_Skeleton.uasset" SILENT=true
+[2021.03.06-00.44.13:332][349]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/YBot_SkeletonA9FB7B224CC70C03C383F38F5B6F3CA3.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/YBot_Skeleton.uasset'
+[2021.03.06-00.44.13:357][349]AssetCheck: New page: Asset Save: YBot_Skeleton
+[2021.03.06-00.44.13:357][349]LogContentValidation: Display: Validating Skeleton /Game/Anims/Imported/YBot_Skeleton.YBot_Skeleton
+[2021.03.06-00.44.41:645][670]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.44.46:288][930]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.44.51:474][237]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.44.54:488][414]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.45.01:492][792]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-00.45.01:523][792]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/UE4_Mannequin_SkeletonC8529EDB4D12E5437E68A886232D904A.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2021.03.06-00.45.01:573][792]AssetCheck: New page: Asset Save: UE4_Mannequin_Skeleton
+[2021.03.06-00.45.01:573][792]LogContentValidation: Display: Validating Skeleton /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
