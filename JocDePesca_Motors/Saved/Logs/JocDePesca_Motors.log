@@ -2212,3 +2212,214 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2021.03.06-00.45.01:523][792]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/UE4_Mannequin_SkeletonC8529EDB4D12E5437E68A886232D904A.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
 [2021.03.06-00.45.01:573][792]AssetCheck: New page: Asset Save: UE4_Mannequin_Skeleton
 [2021.03.06-00.45.01:573][792]LogContentValidation: Display: Validating Skeleton /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2021.03.06-00.57.29:517][ 72]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-00.58.48:505][308]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-00.59.35:389][448]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-01.02.25:004][953]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-01.04.01:934][242]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-01.04.56:919][406]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-01.05.45:209][550]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-01.06.52:977][752]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-01.09.54:730][291]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-01.12.03:318][721]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.12.07:026][896]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2021.03.06-01.12.07:088][896]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.12.07:314][896]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/YBot_SketalMesh5569904946D34BA97596E69975A3819C.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/YBot_SketalMesh.uasset'
+[2021.03.06-01.12.07:359][896]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/Alpha_Body_MAT5A36DA054AA3CCB84733E9A272B0977D.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/Alpha_Body_MAT.uasset'
+[2021.03.06-01.12.07:392][896]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/Alpha_Joints_MATB8F999A342BFCB58EB4DD08DEBE68C40.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/Alpha_Joints_MAT.uasset'
+[2021.03.06-01.12.07:427][896]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.06-01.12.07:427][896]LogContentValidation: Display: Validating Material /Game/Anims/Imported/Alpha_Joints_MAT.Alpha_Joints_MAT
+[2021.03.06-01.12.07:427][896]LogContentValidation: Display: Validating Material /Game/Anims/Imported/Alpha_Body_MAT.Alpha_Body_MAT
+[2021.03.06-01.12.07:427][896]LogContentValidation: Display: Validating SkeletalMesh /Game/Anims/Imported/YBot_SketalMesh.YBot_SketalMesh
+[2021.03.06-01.12.09:059][976]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.12.18:070][429]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.12.24:211][758]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.12.27:355][912]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.12.27:420][912]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2021.03.06-01.12.27:558][912]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/ThirdPersonExampleMap913C6256467D738B24D0BB91C418FE37.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.03.06-01.12.27:807][912]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/ThirdPersonExampleMap_BuiltData4A6F96004C6C203D9B06378937345253.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.03.06-01.12.27:854][912]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.06-01.12.27:854][912]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.03.06-01.12.27:855][912]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.03.06-01.14.01:974][237]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-01.16.03:393][599]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-01.17.16:339][816]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-01.18.25:185][ 21]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-01.18.36:628][ 55]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-01.19.43:742][255]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-01.20.57:211][474]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-01.21.43:304][611]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-01.23.14:409][881]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.23.14:449][881]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/UE4_Mannequin_Skeleton68F3692149AB5DEE4CF90EBF6F0E37E4.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2021.03.06-01.23.14:481][881]AssetCheck: New page: Asset Save: UE4_Mannequin_Skeleton
+[2021.03.06-01.23.14:481][881]LogContentValidation: Display: Validating Skeleton /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2021.03.06-01.23.28:773][141]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.23.28:980][141]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/YBot_SketalMeshE0C9A4414E7349DA8C60398CFDFEB02D.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/YBot_SketalMesh.uasset'
+[2021.03.06-01.23.28:997][141]AssetCheck: New page: Asset Save: YBot_SketalMesh
+[2021.03.06-01.23.28:997][141]LogContentValidation: Display: Validating SkeletalMesh /Game/Anims/Imported/YBot_SketalMesh.YBot_SketalMesh
+[2021.03.06-01.23.44:024][299]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-01.23.55:533][506]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.24.07:103][183]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.24.18:952][688]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.24.20:856][777]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.24.22:511][858]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.24.31:182][ 60]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.24.40:406][483]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.24.43:696][649]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.24.44:479][678]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.24.45:461][713]LogWindows: LaunchFileInExternalEditor E:/UNI 20-21/Trimestre 2/MOTOR DE JOCS/Practicas/P02-UnReal/material/Fishing Idle.fbx 
+[2021.03.06-01.24.45:544][713]LogWindows: Launch application code for E:/UNI 20-21/Trimestre 2/MOTOR DE JOCS/Practicas/P02-UnReal/material/Fishing Idle.fbx : 31
+[2021.03.06-01.24.45:551][713]LogWindows: LaunchFileInExternalEditor E:/UNI 20-21/Trimestre 2/MOTOR DE JOCS/Practicas/P02-UnReal/material/Fishing Cast.fbx 
+[2021.03.06-01.24.45:571][713]LogWindows: Launch application code for E:/UNI 20-21/Trimestre 2/MOTOR DE JOCS/Practicas/P02-UnReal/material/Fishing Cast.fbx : 31
+[2021.03.06-01.24.55:521][867]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.24.56:108][890]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.24.57:377][947]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.25.02:671][248]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.25.02:731][248]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2021.03.06-01.26.02:718][396]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.26.23:325][396]LogSlate: Window 'Create New Animation Object' being destroyed
+[2021.03.06-01.26.33:423][485]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Anims/A_FishingIdle_Retargeted.A_FishingIdle_Retargeted
+[2021.03.06-01.26.33:423][485]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.26.33:425][485]LogSlate: Window 'Seleccionar esqueleto' being destroyed
+[2021.03.06-01.26.33:444][485]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2021.03.06-01.26.33:444][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.06-01.26.33:466][485]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2021.03.06-01.26.33:467][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.06-01.26.33:556][485]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Anims/A_FishingCast_Retargeted.A_FishingCast_Retargeted
+[2021.03.06-01.26.33:557][485]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Anims/A_FishingIdle_Retargeted.A_FishingIdle_Retargeted
+[2021.03.06-01.26.48:450][530]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.26.50:560][567]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.26.50:678][567]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.26.53:440][686]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.26.53:876][699]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.26.55:801][802]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.26.56:788][854]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.26.56:834][854]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2021.03.06-01.26.59:533][885]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-01.27.20:063][950]LogSlate: Window 'Seleccionar esqueleto' being destroyed
+[2021.03.06-01.27.20:082][950]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2021.03.06-01.27.20:082][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.06-01.27.20:105][950]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2021.03.06-01.27.20:105][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.06-01.27.40:334][560]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.27.40:752][582]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.27.41:249][606]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.27.50:116][831]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-01.27.55:360][846]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.28.13:779][199]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.28.13:807][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anims/Imported/YBot_Skeleton" FILE="../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/YBot_Skeleton.uasset" SILENT=true
+[2021.03.06-01.28.13:823][199]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/YBot_Skeleton0AD1B4134BD11DF814D0B39C167D6629.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/YBot_Skeleton.uasset'
+[2021.03.06-01.28.13:849][199]AssetCheck: New page: Asset Save: YBot_Skeleton
+[2021.03.06-01.28.13:849][199]LogContentValidation: Display: Validating Skeleton /Game/Anims/Imported/YBot_Skeleton.YBot_Skeleton
+[2021.03.06-01.28.15:501][279]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.28.26:981][642]LogRenderer: Reallocating scene render targets to support 1208x884 Format 10 NumSamples 1 (Frame:79407).
+[2021.03.06-01.28.32:802][941]LogRenderer: Reallocating scene render targets to support 1408x884 Format 10 NumSamples 1 (Frame:3287).
+[2021.03.06-01.28.59:147][610]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.28.59:568][621]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.29.01:440][705]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.29.04:664][864]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.29.05:441][890]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.29.06:124][923]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.29.06:179][923]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2021.03.06-01.29.31:826][656]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.29.43:815][656]LogSlate: Window 'Create New Animation Object' being destroyed
+[2021.03.06-01.29.46:848][827]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Anims/A_FishingCast_Retargeted1.A_FishingCast_Retargeted1
+[2021.03.06-01.29.46:849][827]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.29.46:859][827]LogSlate: Window 'Seleccionar esqueleto' being destroyed
+[2021.03.06-01.29.46:878][827]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2021.03.06-01.29.46:878][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.06-01.29.46:890][827]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2021.03.06-01.29.46:890][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.06-01.30.07:902][402]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.30.07:939][402]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Anims/A_FishingCast_Retargeted.A_FishingCast_Retargeted
+[2021.03.06-01.30.07:948][402]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_42:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-01.30.08:637][402]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.03.06-01.30.11:866][570]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.30.11:905][570]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Anims/A_FishingCast_Retargeted1.A_FishingCast_Retargeted1
+[2021.03.06-01.30.13:634][634]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.30.13:666][634]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Anims/A_FishingIdle_Retargeted.A_FishingIdle_Retargeted
+[2021.03.06-01.31.08:165][936]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.03.06-01.36.14:998][848]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.36.24:071][875]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.36.24:145][875]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2021.03.06-01.36.24:166][875]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.064
+[2021.03.06-01.36.24:268][875]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton] ([1] browsable assets)...
+[2021.03.06-01.36.24:268][875]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton]
+[2021.03.06-01.36.24:278][875]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/UE4_Mannequin_Skeleton_Auto658E9C2434604FBE8B9BFFB98AB927AB4.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/Autosaves/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_Auto6.uasset'
+[2021.03.06-01.36.24:279][875]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Anims/Imported/YBot_Skeleton] ([1] browsable assets)...
+[2021.03.06-01.36.24:279][875]OBJ SavePackage: Finished generating thumbnails for package [/Game/Anims/Imported/YBot_Skeleton]
+[2021.03.06-01.36.24:292][875]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/YBot_Skeleton_Auto696F036FD492792C5728D3B8546C1225A.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/Autosaves/Game/Anims/Imported/YBot_Skeleton_Auto6.uasset'
+[2021.03.06-01.36.24:294][875]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Anims/A_FishingIdle_Retargeted] ([1] browsable assets)...
+[2021.03.06-01.36.24:315][875]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Anims/A_FishingIdle_Retargeted.A_FishingIdle_Retargeted]
+[2021.03.06-01.36.24:315][875]OBJ SavePackage: Finished generating thumbnails for package [/Game/Anims/A_FishingIdle_Retargeted]
+[2021.03.06-01.36.24:338][875]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/A_FishingIdle_Retargeted_Auto64BC8EA4A4C1D702CEF85B9B3C55077D7.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/Autosaves/Game/Anims/A_FishingIdle_Retargeted_Auto6.uasset'
+[2021.03.06-01.36.24:340][875]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Anims/A_FishingCast_Retargeted] ([1] browsable assets)...
+[2021.03.06-01.36.24:351][875]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Anims/A_FishingCast_Retargeted.A_FishingCast_Retargeted]
+[2021.03.06-01.36.24:352][875]OBJ SavePackage: Finished generating thumbnails for package [/Game/Anims/A_FishingCast_Retargeted]
+[2021.03.06-01.36.24:373][875]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/A_FishingCast_Retargeted_Auto66D88E1A749B567C48915E99415A9273F.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/Autosaves/Game/Anims/A_FishingCast_Retargeted_Auto6.uasset'
+[2021.03.06-01.36.24:374][875]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Anims/A_FishingCast_Retargeted1] ([1] browsable assets)...
+[2021.03.06-01.36.24:386][875]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Anims/A_FishingCast_Retargeted1.A_FishingCast_Retargeted1]
+[2021.03.06-01.36.24:386][875]OBJ SavePackage: Finished generating thumbnails for package [/Game/Anims/A_FishingCast_Retargeted1]
+[2021.03.06-01.36.24:404][875]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/A_FishingCast_Retargeted1_Auto6EBF605764F1CFEA5E051AD90F1CD653E.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/Autosaves/Game/Anims/A_FishingCast_Retargeted1_Auto6.uasset'
+[2021.03.06-01.36.24:405][875]LogFileHelpers: Auto-saving content packages took 0.239
+[2021.03.06-01.41.01:284][474]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.41.01:708][474]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/A_FishingIdle_Retargeted81EDC0F64376DE3ED1D461A31A1C9109.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/A_FishingIdle_Retargeted.uasset'
+[2021.03.06-01.41.01:742][474]AssetCheck: New page: Asset Save: A_FishingIdle_Retargeted
+[2021.03.06-01.41.01:742][474]LogContentValidation: Display: Validating AnimSequence /Game/Anims/A_FishingIdle_Retargeted.A_FishingIdle_Retargeted
+[2021.03.06-01.41.03:723][588]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.41.03:778][588]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/A_FishingCast_Retargeted158757B74DA29BB0378BB3815C7A159D.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/A_FishingCast_Retargeted.uasset'
+[2021.03.06-01.41.03:803][588]AssetCheck: New page: Asset Save: A_FishingCast_Retargeted
+[2021.03.06-01.41.03:804][588]LogContentValidation: Display: Validating AnimSequence /Game/Anims/A_FishingCast_Retargeted.A_FishingCast_Retargeted
+[2021.03.06-01.41.04:947][647]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.41.07:781][800]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.41.07:824][800]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.03.06-01.41.07:876][800]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/ThirdPersonExampleMap0472D33A46DCA39833E3158F783FA2C7.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.03.06-01.41.08:046][800]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/ThirdPersonExampleMap_BuiltDataD11D9BC844897D9459CA8DB03A8128A1.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.03.06-01.41.08:065][800]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.06-01.41.08:065][800]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.03.06-01.41.08:066][800]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.03.06-01.41.10:375][938]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.41.13:173][102]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.41.14:014][143]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.03.06-01.41.14:023][143]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.41.14:058][143]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/UE4_Mannequin_SkeletonE236973245FA94B878686490540387BB.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2021.03.06-01.41.14:059][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anims/Imported/YBot_Skeleton" FILE="../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/YBot_Skeleton.uasset" SILENT=true
+[2021.03.06-01.41.14:069][143]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/YBot_SkeletonED3BB98748E0CB16833362ADF09879F6.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/Imported/YBot_Skeleton.uasset'
+[2021.03.06-01.41.14:081][143]LogSavePackage: Moving '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Saved/A_FishingCast_Retargeted1842235C44C18A7CA96BCFE8CACC2FA14.tmp' to '../../../../../../COSAS/GuiHub/Unity Projects/P01-Motors/JocDePesca_Motors/Content/Anims/A_FishingCast_Retargeted1.uasset'
+[2021.03.06-01.41.14:101][143]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.06-01.41.14:101][143]LogContentValidation: Display: Validating Skeleton /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2021.03.06-01.41.14:101][143]LogContentValidation: Display: Validating Skeleton /Game/Anims/Imported/YBot_Skeleton.YBot_Skeleton
+[2021.03.06-01.41.14:101][143]LogContentValidation: Display: Validating AnimSequence /Game/Anims/A_FishingCast_Retargeted1.A_FishingCast_Retargeted1
+[2021.03.06-01.41.18:570][406]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.41.18:592][406]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Anims/A_FishingCast_Retargeted.A_FishingCast_Retargeted
+[2021.03.06-01.41.25:199][562]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.41.25:733][582]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.41.33:678][734]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.41.34:348][753]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.44.02:130][495]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.44.02:818][523]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.44.06:084][704]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.44.08:885][844]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.44.19:633][173]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.44.19:678][173]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2021.03.06-01.44.19:684][173]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-01.44.24:242][193]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.06-01.44.24:263][193]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP
+[2021.03.06-01.44.24:275][193]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.03.06-01.44.34:064][368]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2021.03.06-01.44.34:064][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.06-01.44.35:178][419]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2021.03.06-01.44.35:179][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.06-01.44.35:961][451]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2021.03.06-01.44.35:961][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.06-01.44.36:759][485]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2021.03.06-01.44.36:759][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.06-01.44.36:920][485]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2021.03.06-01.44.36:920][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.06-01.44.37:390][511]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2021.03.06-01.44.37:391][511]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.06-01.44.38:146][547]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2021.03.06-01.44.38:146][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.06-01.44.38:236][547]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2021.03.06-01.44.38:237][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.06-01.44.38:856][575]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
